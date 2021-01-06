@@ -1,16 +1,16 @@
 <template>
   <div id="app">
     <router-view/>
-    <tab-bar/>
+    <main-bar/>
   </div>
 </template>
 
 <script>
-  import TabBar from "./components/tabBar/TabBar";
+  import MainBar from "./components/content/mainBar/MainBar";
   export default {
     name:'App',
     components:{
-      TabBar
+      MainBar
     }
   }
 </script>
